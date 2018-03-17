@@ -3,7 +3,7 @@
     "description": "Clases para interactuar con api de Afip",
     "type": "library",
     "require": {
-        
+        "ext-soap": "*"
     },
     "require-dev": {
         "mockery/mockery": "^0.9.9",
