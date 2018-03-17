@@ -85,7 +85,7 @@ trait FileManager
   protected function tempFolderPermissionsCheck()
   {
     if (!is_writable($this->getTempFolderPath())) {
-      throw new WSException("La carpeta Temp debe tener permisos de escritura");
+      throw new WSException(sprintf("La carpeta %s debe tener permisos de escritura", $this->getTempFolderPath()));
     };
   }
 
