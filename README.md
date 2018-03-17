@@ -2,6 +2,7 @@
 
 1. `Auth` permite interactuar con el web service de autenticacion WSAA
 2. `Biller` permite interactuar con el servicio de facturacion electronica WSFEV1
+3. `CensusA4` Permite interactura con el servicio de consulta de padrón `ws_sr_padron_a4`
 
 ## Carpeta Resources
 
@@ -92,3 +93,5 @@ try {
 1. Auth: http://www.afip.gob.ar/ws/WSAA/Especificacion_Tecnica_WSAA_1.2.2.pdf
 
 2. F.E.: http://www.afip.gob.ar/fe/documentos/manual_desarrollador_COMPG_v2_9.pdf
+
+3. Padrón A4: https://www.afip.gob.ar/ws/ws_sr_padron_a4/manual_ws_sr_padron_a4_v1.1.pdf
